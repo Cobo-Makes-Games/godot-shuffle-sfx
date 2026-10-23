@@ -1,0 +1,12 @@
+; Demo and test project for the Shuffle SFX add-on. Only addons/shuffle_sfx is the add-on.
+config_version=5
+
+[application]
+
+config/name="Shuffle SFX demo"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.3")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/shuffle_sfx/plugin.cfg")
